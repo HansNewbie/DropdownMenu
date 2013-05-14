@@ -1,3 +1,7 @@
+.drop-hover:hover + .dropdown{
+    display: block;
+}
+
 .dropdown {
-    opacity = 0
+    display: none;
 }
