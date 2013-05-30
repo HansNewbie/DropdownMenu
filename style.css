@@ -1,7 +1,22 @@
+.drop-hover{
+    margin: 0px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 1px;
+}
+
 .drop-hover:hover + .dropdown{
     display: block;
 }
 
 .dropdown {
+    margin: 0px;
+    padding: 0px;
     display: none;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.dropdown:hover{
+    display: block;
 }
