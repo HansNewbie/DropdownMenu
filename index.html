@@ -3,11 +3,11 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -49,10 +49,12 @@
 
           <br /><br />
 
-          <p><em>V1.0</em><br />
-            Well, It's not pretty or anything. I just tried to make the dropdown menu works. :) <del>I still need to work on how to render the dropdown menu on top of everything else, though.</del></p>
           <p><em>V1.1</em><br />
-            Now the dropdown menu is rendered on top of the text. This is done through CSS positioning of relative for the main choice (the button to make the menu visible) and absolute for the list. Need to workout how not to leave a gap between the button and the list, but it will be quite difficult and I will do it when I have time to do it.</p>
+            Now the dropdown menu is rendered on top of the text. This is done through CSS positioning of relative for the main choice (the button to make the menu visible) and absolute for the list. Need to workout how not to leave a gap between the button and the list, but it will be quite difficult and I will do it when I have time to do it.
+            <em>UPDATE</em>: I found out that the problem with it is the Github CSS. I tried to override everything, but it seems that there is a problem with the user agent stylesheet from Chrome (webkit), which I checked on StackOverflow and tried everything with no yield. The clean code would works perfectly though. If you could help me on the matter, could you contact me (probably through comment on my blog or Github Issue)? Thanks!
+          </p>
+          <p><em>V1.0</em><br />
+          Well, It's not pretty or anything. I just tried to make the dropdown menu works. :) <del>I still need to work on how to render the dropdown menu on top of everything else, though.</del></p>
         </section>
 
         <footer>
